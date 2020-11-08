@@ -1,8 +1,12 @@
 # RemoteUpstreamMaster
+
 test
 #1 내용을 수정
-### branch master에서 
-### pull  (remoteUpsreamMaster에서 변경한 내용 받음 O)
+
+---
+test1
+## branch master에서 
+## pull  (remoteUpsreamMaster에서 변경한 내용 받음 O)
 
 remote: Enumerating objects: 8, done.
 remote: Counting objects: 100% (8/8), done.
@@ -16,7 +20,7 @@ Fast-forward
  README.md | 8 ++++++--
  1 file changed, 6 insertions(+), 2 deletions(-)
  
-### pull upstream/master (remoteUpsreamMaster에서 변경한 내용 받음 O)
+## pull upstream/master (remoteUpsreamMaster에서 변경한 내용 받음 O)
 
 remote: Enumerating objects: 5, done.
 remote: Counting objects: 100% (5/5), done.
@@ -32,8 +36,8 @@ Fast-forward
  1 file changed, 3 insertions(+), 3 deletions(-)
  
  
- ### branch #2에서 
- ### pull  (remoteUpsreamMaster에서 변경한 내용 받음 X)
+ ## branch #2에서 
+ ## pull  (remoteUpsreamMaster에서 변경한 내용 받음 X)
  
  here is no tracking information for the current branch.
 Please specify which branch you want to merge with.
@@ -44,7 +48,7 @@ See git-pull(1) for details.
 If you wish to set tracking information for this branch you can do so with:
 
     git branch --set-upstream-to=<remote>/<branch> #2
-### pull upstream/master (remoteUpsreamMaster에서 변경한 내용 받음 O)
+## pull upstream/master (remoteUpsreamMaster에서 변경한 내용 받음 O)
  
 From https://github.com/gwiyeom/RemoteUpstreamMaster
  * branch            main       -> FETCH_HEAD
